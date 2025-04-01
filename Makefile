@@ -5,7 +5,7 @@ clean:
 	rm -rf venv
 	rm -rf __pycache__
 test:
-	./venv/bin/pytest
+	pytest test_app.py
 run:
 	./venv/bin/python app.py
 
